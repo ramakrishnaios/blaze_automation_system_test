@@ -6,3 +6,9 @@
 //
 
 import Foundation
+struct BaseURLs {
+    static let devURL: String = "https://projects.propublica.org/"
+}
+struct Endpoints {
+    static let organizationsList : String = "nonprofits/api/v2/search.json"
+}

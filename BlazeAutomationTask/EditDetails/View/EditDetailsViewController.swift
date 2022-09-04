@@ -8,22 +8,36 @@
 import UIKit
 
 class EditDetailsViewController: UIViewController {
-
+ 
+    var organization : Organizations?
+    @IBOutlet weak var tfName : UITextField!
+    @IBOutlet weak var tfSub_Name : UITextField!
+    @IBOutlet weak var switchHas_Subseccd : UISwitch!
+    var VMEditOrganization : EditOrganizationViewModel?
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        setOrgData()
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func setOrgData(){
+        if let org = self.organization {
+            self.tfName.text = org.name ?? ""
+            self.tfSub_Name.text = org.sub_name ?? ""
+            self.switchHas_Subseccd.isOn = org.has_subseccd
+        }
     }
-    */
-
+    
+    @IBAction func updateDetails(){
+        let updateDetailsOrg = UpdatedOrgainsation.init(name: self.tfName.text, sub_Name: self.tfSub_Name.text, has_Subseccd: self.switchHas_Subseccd.isOn, id: self.organization?.id)
+        self.VMEditOrganization = EditOrganizationViewModel()
+        if (self.VMEditOrganization?.updateOrganizationChanges(updateOrgDetails: updateDetailsOrg) ?? false) {
+            let animatedVCXib = AnimatedChildViewController.init(nibName: "AnimatedChildViewController", bundle: nil)
+            self.add(animatedVCXib,frame: self.view.bounds)
+            DispatchQueue.main.asyncAfter(deadline: .now() + 3.0) {
+                self.navigationController?.popViewController(animated: true)
+            }
+        }
+        
+    }
 }
+

@@ -47,7 +47,7 @@ class OrganizationListViewModel {
     func processData(localDBData:[Organizations]?){
         if let stateList = localDBData?.map({$0.state}) {
             var orgList : [StateWiseOriganizations] = []
-            for state in Array(Set(stateList)) {
+            for state in Array(Set(stateList).sorted(by: {$0?.localizedCaseInsensitiveCompare($1 ?? "") == ComparisonResult.orderedAscending})) {
                 let organizations = localDBData?.filter({$0.state == state})
                 orgList.append(StateWiseOriganizations.init(state: state ?? "", organisation: organizations ?? []))
             }

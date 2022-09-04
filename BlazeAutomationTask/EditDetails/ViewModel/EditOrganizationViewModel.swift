@@ -6,3 +6,17 @@
 //
 
 import Foundation
+class EditOrganizationViewModel {
+    init() {
+        
+    }
+    func updateOrganizationChanges(updateOrgDetails:UpdatedOrgainsation?) -> Bool? {
+        if let orgDetails = updateOrgDetails{
+            return Organizations.UpdateOrganization(org: orgDetails, context: CoreDataStorageManager.sharedInstances.context)
+        }
+        else{
+            return false
+        }
+    }
+    
+}

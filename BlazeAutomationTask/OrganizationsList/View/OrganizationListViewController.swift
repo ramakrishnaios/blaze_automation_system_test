@@ -68,7 +68,12 @@ class OrganizationListViewController: UIViewController {
             self.tblOrganizationList.reloadData()
         }
     }
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        searchBar.endEditing(true)
+        searchBar.text = nil
 
+    }
 }
 
 extension OrganizationListViewController: UISearchBarDelegate {

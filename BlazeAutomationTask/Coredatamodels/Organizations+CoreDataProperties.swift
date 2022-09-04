@@ -12,10 +12,8 @@ import CoreData
 
 extension Organizations {
 
-    @nonobjc public class func fetchRequest() -> NSFetchRequest<Organizations> {
-        return NSFetchRequest<Organizations>(entityName: "Organizations")
-    }
-
+   
+    @NSManaged public var id: UUID
     @NSManaged public var ein: Int64
     @NSManaged public var strein: String?
     @NSManaged public var name: String?
