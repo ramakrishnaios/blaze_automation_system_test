@@ -7,24 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		94320A4128C3205A00004F6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94320A4028C3205A00004F6D /* AppDelegate.swift */; };
-		94320A4328C3205A00004F6D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94320A4228C3205A00004F6D /* SceneDelegate.swift */; };
 		94320A4828C3205A00004F6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94320A4628C3205A00004F6D /* Main.storyboard */; };
 		94320A4B28C3205A00004F6D /* BlazeAutomationTask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 94320A4928C3205A00004F6D /* BlazeAutomationTask.xcdatamodeld */; };
-		94320A4D28C3205E00004F6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94320A4C28C3205E00004F6D /* Assets.xcassets */; };
-		94320A5028C3205E00004F6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94320A4E28C3205E00004F6D /* LaunchScreen.storyboard */; };
-		94320A5A28C320CB00004F6D /* Organizations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94320A5828C320CB00004F6D /* Organizations.swift */; };
-		94320A5B28C320CB00004F6D /* OrganizationsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94320A5928C320CB00004F6D /* OrganizationsResponse.swift */; };
 		94320A5D28C3210500004F6D /* OrganizationListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94320A5C28C3210500004F6D /* OrganizationListViewController.swift */; };
 		94320A6028C3215200004F6D /* APICallManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94320A5F28C3215200004F6D /* APICallManager.swift */; };
 		94320A6328C3222300004F6D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94320A6228C3222300004F6D /* Constants.swift */; };
-		94320A6628C322C900004F6D /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94320A6528C322C900004F6D /* CoreDataManager.swift */; };
-		94320A6B28C3248500004F6D /* OrganizationDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94320A6928C3248500004F6D /* OrganizationDetailsTableViewCell.swift */; };
-		94320A6C28C3248500004F6D /* OrganizationDetailsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94320A6A28C3248500004F6D /* OrganizationDetailsTableViewCell.xib */; };
 		94320A7C28C326FA00004F6D /* Organizations+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94320A7A28C326FA00004F6D /* Organizations+CoreDataClass.swift */; };
 		94320A7D28C326FA00004F6D /* Organizations+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94320A7B28C326FA00004F6D /* Organizations+CoreDataProperties.swift */; };
 		94320A8028C327AC00004F6D /* OrganizationListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94320A7F28C327AC00004F6D /* OrganizationListViewModel.swift */; };
-		94320A8328C32A5400004F6D /* OrganizationListDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94320A8228C32A5400004F6D /* OrganizationListDataSource.swift */; };
 		94320A8828C3323B00004F6D /* Organizations+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94320A8728C3323B00004F6D /* Organizations+Extension.swift */; };
 		94E01DFB28C4636D00E7A7F3 /* EditDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E01DFA28C4636D00E7A7F3 /* EditDetailsViewController.swift */; };
 		94E01DFE28C4726800E7A7F3 /* EditOrganizationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E01DFD28C4726800E7A7F3 /* EditOrganizationViewModel.swift */; };
@@ -32,29 +22,28 @@
 		94E01E0428C4761E00E7A7F3 /* CommonExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E01E0328C4761E00E7A7F3 /* CommonExtensions.swift */; };
 		94E01E0828C476E100E7A7F3 /* AnimatedChildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E01E0628C476E100E7A7F3 /* AnimatedChildViewController.swift */; };
 		94E01E0928C476E100E7A7F3 /* AnimatedChildViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94E01E0728C476E100E7A7F3 /* AnimatedChildViewController.xib */; };
+		9DF6760F2909298600DCCAD5 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF6760E2909298600DCCAD5 /* CoreDataManager.swift */; };
+		9DF67617290929DD00DCCAD5 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9DF67610290929DD00DCCAD5 /* Info.plist */; };
+		9DF67618290929DD00DCCAD5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF67611290929DD00DCCAD5 /* AppDelegate.swift */; };
+		9DF6761A290929DD00DCCAD5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF67615290929DD00DCCAD5 /* SceneDelegate.swift */; };
+		9DF6761B290929DD00DCCAD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DF67616290929DD00DCCAD5 /* Assets.xcassets */; };
+		9DF6762129092A2000DCCAD5 /* OrganizationsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF6761D29092A2000DCCAD5 /* OrganizationsResponse.swift */; };
+		9DF6762229092A2000DCCAD5 /* Organizations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF6761E29092A2000DCCAD5 /* Organizations.swift */; };
+		9DF6762329092A2000DCCAD5 /* OrganizationListDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF6762029092A2000DCCAD5 /* OrganizationListDataSource.swift */; };
+		9DF6762729092B1B00DCCAD5 /* OrganizationDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF6762529092B1A00DCCAD5 /* OrganizationDetailsTableViewCell.swift */; };
+		9DF6762829092B1B00DCCAD5 /* OrganizationDetailsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DF6762629092B1A00DCCAD5 /* OrganizationDetailsTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		94320A3D28C3205A00004F6D /* BlazeAutomationTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlazeAutomationTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		94320A4028C3205A00004F6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		94320A4228C3205A00004F6D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		94320A4728C3205A00004F6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		94320A4A28C3205A00004F6D /* BlazeAutomationTask.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BlazeAutomationTask.xcdatamodel; sourceTree = "<group>"; };
-		94320A4C28C3205E00004F6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		94320A4F28C3205E00004F6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		94320A5128C3205E00004F6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		94320A5828C320CB00004F6D /* Organizations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Organizations.swift; sourceTree = "<group>"; };
-		94320A5928C320CB00004F6D /* OrganizationsResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrganizationsResponse.swift; sourceTree = "<group>"; };
 		94320A5C28C3210500004F6D /* OrganizationListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganizationListViewController.swift; sourceTree = "<group>"; };
 		94320A5F28C3215200004F6D /* APICallManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APICallManager.swift; sourceTree = "<group>"; };
 		94320A6228C3222300004F6D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		94320A6528C322C900004F6D /* CoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
-		94320A6928C3248500004F6D /* OrganizationDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganizationDetailsTableViewCell.swift; sourceTree = "<group>"; };
-		94320A6A28C3248500004F6D /* OrganizationDetailsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OrganizationDetailsTableViewCell.xib; sourceTree = "<group>"; };
 		94320A7A28C326FA00004F6D /* Organizations+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Organizations+CoreDataClass.swift"; sourceTree = "<group>"; };
 		94320A7B28C326FA00004F6D /* Organizations+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Organizations+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		94320A7F28C327AC00004F6D /* OrganizationListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganizationListViewModel.swift; sourceTree = "<group>"; };
-		94320A8228C32A5400004F6D /* OrganizationListDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganizationListDataSource.swift; sourceTree = "<group>"; };
 		94320A8728C3323B00004F6D /* Organizations+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Organizations+Extension.swift"; sourceTree = "<group>"; };
 		94E01DFA28C4636D00E7A7F3 /* EditDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditDetailsViewController.swift; sourceTree = "<group>"; };
 		94E01DFD28C4726800E7A7F3 /* EditOrganizationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditOrganizationViewModel.swift; sourceTree = "<group>"; };
@@ -62,6 +51,16 @@
 		94E01E0328C4761E00E7A7F3 /* CommonExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonExtensions.swift; sourceTree = "<group>"; };
 		94E01E0628C476E100E7A7F3 /* AnimatedChildViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedChildViewController.swift; sourceTree = "<group>"; };
 		94E01E0728C476E100E7A7F3 /* AnimatedChildViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnimatedChildViewController.xib; sourceTree = "<group>"; };
+		9DF6760E2909298600DCCAD5 /* CoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		9DF67610290929DD00DCCAD5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DF67611290929DD00DCCAD5 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9DF67615290929DD00DCCAD5 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9DF67616290929DD00DCCAD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9DF6761D29092A2000DCCAD5 /* OrganizationsResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrganizationsResponse.swift; sourceTree = "<group>"; };
+		9DF6761E29092A2000DCCAD5 /* Organizations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Organizations.swift; sourceTree = "<group>"; };
+		9DF6762029092A2000DCCAD5 /* OrganizationListDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrganizationListDataSource.swift; sourceTree = "<group>"; };
+		9DF6762529092B1A00DCCAD5 /* OrganizationDetailsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrganizationDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		9DF6762629092B1A00DCCAD5 /* OrganizationDetailsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OrganizationDetailsTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,7 +93,7 @@
 		94320A3F28C3205A00004F6D /* BlazeAutomationTask */ = {
 			isa = PBXGroup;
 			children = (
-				94E01E0B28C47A2200E7A7F3 /* CoreData */,
+				9DF6760C2909298600DCCAD5 /* CoreData */,
 				94E01E0A28C479EA00E7A7F3 /* OrganizationsList */,
 				94E01E0528C476BF00E7A7F3 /* StatusPopup */,
 				94E01E0228C4761E00E7A7F3 /* Extensions */,
@@ -102,24 +101,14 @@
 				94320A7128C3267500004F6D /* Coredatamodels */,
 				94320A6128C3221600004F6D /* Constants */,
 				94320A5E28C3215200004F6D /* APICallManager */,
-				94320A4028C3205A00004F6D /* AppDelegate.swift */,
-				94320A4228C3205A00004F6D /* SceneDelegate.swift */,
 				94320A4628C3205A00004F6D /* Main.storyboard */,
-				94320A4C28C3205E00004F6D /* Assets.xcassets */,
-				94320A4E28C3205E00004F6D /* LaunchScreen.storyboard */,
-				94320A5128C3205E00004F6D /* Info.plist */,
+				9DF67611290929DD00DCCAD5 /* AppDelegate.swift */,
+				9DF67616290929DD00DCCAD5 /* Assets.xcassets */,
+				9DF67610290929DD00DCCAD5 /* Info.plist */,
+				9DF67615290929DD00DCCAD5 /* SceneDelegate.swift */,
 				94320A4928C3205A00004F6D /* BlazeAutomationTask.xcdatamodeld */,
 			);
 			path = BlazeAutomationTask;
-			sourceTree = "<group>";
-		};
-		94320A5728C3209700004F6D /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				94320A5828C320CB00004F6D /* Organizations.swift */,
-				94320A5928C320CB00004F6D /* OrganizationsResponse.swift */,
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		94320A5E28C3215200004F6D /* APICallManager */ = {
@@ -138,30 +127,13 @@
 			path = Constants;
 			sourceTree = "<group>";
 		};
-		94320A6428C322C900004F6D /* CoreDataManager */ = {
-			isa = PBXGroup;
-			children = (
-				94320A6528C322C900004F6D /* CoreDataManager.swift */,
-			);
-			path = CoreDataManager;
-			sourceTree = "<group>";
-		};
 		94320A6728C3244E00004F6D /* View */ = {
 			isa = PBXGroup;
 			children = (
-				94320A6828C3245C00004F6D /* Tableviewcell */,
+				9DF6762429092B1A00DCCAD5 /* Tableviewcell */,
 				94320A5C28C3210500004F6D /* OrganizationListViewController.swift */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		94320A6828C3245C00004F6D /* Tableviewcell */ = {
-			isa = PBXGroup;
-			children = (
-				94320A6928C3248500004F6D /* OrganizationDetailsTableViewCell.swift */,
-				94320A6A28C3248500004F6D /* OrganizationDetailsTableViewCell.xib */,
-			);
-			path = Tableviewcell;
 			sourceTree = "<group>";
 		};
 		94320A7128C3267500004F6D /* Coredatamodels */ = {
@@ -180,14 +152,6 @@
 				94320A7F28C327AC00004F6D /* OrganizationListViewModel.swift */,
 			);
 			path = ViewModel;
-			sourceTree = "<group>";
-		};
-		94320A8128C32A3E00004F6D /* OrganizationListDataSource */ = {
-			isa = PBXGroup;
-			children = (
-				94320A8228C32A5400004F6D /* OrganizationListDataSource.swift */,
-			);
-			path = OrganizationListDataSource;
 			sourceTree = "<group>";
 		};
 		94320A8428C331E800004F6D /* CoredataOrganizationsEntityExtensions */ = {
@@ -252,20 +216,54 @@
 		94E01E0A28C479EA00E7A7F3 /* OrganizationsList */ = {
 			isa = PBXGroup;
 			children = (
-				94320A8128C32A3E00004F6D /* OrganizationListDataSource */,
+				9DF6761C29092A2000DCCAD5 /* Model */,
+				9DF6761F29092A2000DCCAD5 /* OrganizationListDataSource */,
 				94320A7E28C3278800004F6D /* ViewModel */,
 				94320A6728C3244E00004F6D /* View */,
-				94320A5728C3209700004F6D /* Model */,
 			);
 			path = OrganizationsList;
 			sourceTree = "<group>";
 		};
-		94E01E0B28C47A2200E7A7F3 /* CoreData */ = {
+		9DF6760C2909298600DCCAD5 /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
-				94320A6428C322C900004F6D /* CoreDataManager */,
+				9DF6760D2909298600DCCAD5 /* CoreDataManager */,
 			);
 			path = CoreData;
+			sourceTree = "<group>";
+		};
+		9DF6760D2909298600DCCAD5 /* CoreDataManager */ = {
+			isa = PBXGroup;
+			children = (
+				9DF6760E2909298600DCCAD5 /* CoreDataManager.swift */,
+			);
+			path = CoreDataManager;
+			sourceTree = "<group>";
+		};
+		9DF6761C29092A2000DCCAD5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9DF6761D29092A2000DCCAD5 /* OrganizationsResponse.swift */,
+				9DF6761E29092A2000DCCAD5 /* Organizations.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9DF6761F29092A2000DCCAD5 /* OrganizationListDataSource */ = {
+			isa = PBXGroup;
+			children = (
+				9DF6762029092A2000DCCAD5 /* OrganizationListDataSource.swift */,
+			);
+			path = OrganizationListDataSource;
+			sourceTree = "<group>";
+		};
+		9DF6762429092B1A00DCCAD5 /* Tableviewcell */ = {
+			isa = PBXGroup;
+			children = (
+				9DF6762529092B1A00DCCAD5 /* OrganizationDetailsTableViewCell.swift */,
+				9DF6762629092B1A00DCCAD5 /* OrganizationDetailsTableViewCell.xib */,
+			);
+			path = Tableviewcell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -326,11 +324,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94320A5028C3205E00004F6D /* LaunchScreen.storyboard in Resources */,
-				94320A4D28C3205E00004F6D /* Assets.xcassets in Resources */,
+				9DF67617290929DD00DCCAD5 /* Info.plist in Resources */,
 				94E01E0928C476E100E7A7F3 /* AnimatedChildViewController.xib in Resources */,
+				9DF6762829092B1B00DCCAD5 /* OrganizationDetailsTableViewCell.xib in Resources */,
 				94320A4828C3205A00004F6D /* Main.storyboard in Resources */,
-				94320A6C28C3248500004F6D /* OrganizationDetailsTableViewCell.xib in Resources */,
+				9DF6761B290929DD00DCCAD5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,26 +339,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94320A8328C32A5400004F6D /* OrganizationListDataSource.swift in Sources */,
 				94320A4B28C3205A00004F6D /* BlazeAutomationTask.xcdatamodeld in Sources */,
-				94320A4128C3205A00004F6D /* AppDelegate.swift in Sources */,
-				94320A5B28C320CB00004F6D /* OrganizationsResponse.swift in Sources */,
+				9DF67618290929DD00DCCAD5 /* AppDelegate.swift in Sources */,
 				94320A5D28C3210500004F6D /* OrganizationListViewController.swift in Sources */,
 				94E01DFB28C4636D00E7A7F3 /* EditDetailsViewController.swift in Sources */,
 				94E01E0828C476E100E7A7F3 /* AnimatedChildViewController.swift in Sources */,
 				94E01E0128C4728600E7A7F3 /* EditOrganizationModel.swift in Sources */,
-				94320A4328C3205A00004F6D /* SceneDelegate.swift in Sources */,
 				94320A8828C3323B00004F6D /* Organizations+Extension.swift in Sources */,
 				94320A6028C3215200004F6D /* APICallManager.swift in Sources */,
 				94E01DFE28C4726800E7A7F3 /* EditOrganizationViewModel.swift in Sources */,
+				9DF6762129092A2000DCCAD5 /* OrganizationsResponse.swift in Sources */,
 				94E01E0428C4761E00E7A7F3 /* CommonExtensions.swift in Sources */,
-				94320A6628C322C900004F6D /* CoreDataManager.swift in Sources */,
 				94320A8028C327AC00004F6D /* OrganizationListViewModel.swift in Sources */,
-				94320A5A28C320CB00004F6D /* Organizations.swift in Sources */,
+				9DF6762229092A2000DCCAD5 /* Organizations.swift in Sources */,
 				94320A7D28C326FA00004F6D /* Organizations+CoreDataProperties.swift in Sources */,
+				9DF6762329092A2000DCCAD5 /* OrganizationListDataSource.swift in Sources */,
+				9DF6761A290929DD00DCCAD5 /* SceneDelegate.swift in Sources */,
 				94320A6328C3222300004F6D /* Constants.swift in Sources */,
-				94320A6B28C3248500004F6D /* OrganizationDetailsTableViewCell.swift in Sources */,
+				9DF6760F2909298600DCCAD5 /* CoreDataManager.swift in Sources */,
 				94320A7C28C326FA00004F6D /* Organizations+CoreDataClass.swift in Sources */,
+				9DF6762729092B1B00DCCAD5 /* OrganizationDetailsTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,14 +371,6 @@
 				94320A4728C3205A00004F6D /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		94320A4E28C3205E00004F6D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				94320A4F28C3205E00004F6D /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -505,9 +495,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = CQAL4454JC;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BlazeAutomationTask/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -522,6 +512,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ramram.BlazeAutomationTask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -533,9 +524,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = CQAL4454JC;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BlazeAutomationTask/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -550,6 +541,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ramram.BlazeAutomationTask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
